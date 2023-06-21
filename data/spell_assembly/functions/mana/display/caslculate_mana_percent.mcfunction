@@ -1,4 +1,5 @@
 
-scoreboard players operation @s spellAssembly.dispplayMana = @s spellAssembly.mana
-scoreboard players operation @s spellAssembly.dispplayMana *= 100 const
-scoreboard players operation @s spellAssembly.dispplayMana /= @s spellAssembly.manaMax
+scoreboard players operation @s spellAssembly.displayMana = @s spellAssembly.mana
+scoreboard players operation @s spellAssembly.displayMana *= 100 const
+scoreboard players operation @s spellAssembly.displayMana /= @s spellAssembly.manaMax
+

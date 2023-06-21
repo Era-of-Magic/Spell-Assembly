@@ -1,11 +1,10 @@
 
-function spell_assembly:tick
+title @a times 0t 3s 0t
 
 ### Configs
 
 scoreboard objectives add spellAssembly.config dummy
 execute unless score configDefaultsSet spellAssembly.config matches 1 run function spell_assembly:default_config
-
 
 
 
@@ -26,8 +25,18 @@ scoreboard objectives add spellAssembly.manaFillRate dummy
 scoreboard objectives add spellAssembly.manaExhaustion dummy
 scoreboard objectives add spellAssembly.manaExhaustionFillRate dummy
 scoreboard objectives add spellAssembly.manaExhaustionCooldown dummy
-scoreboard objectives add spellAssembly.dispplayMana dummy
+scoreboard objectives add spellAssembly.displayMana dummy
 
 
 
 ### Set Scores
+
+
+
+### Functions
+
+function spell_assembly:tick
+
+### Load Message
+
+tellraw @a {"text": "Spell Assembly loaded","color": "yellow"}
