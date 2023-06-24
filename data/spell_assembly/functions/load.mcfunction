@@ -4,7 +4,7 @@ title @a times 0t 10t 0t
 ### Configs
 
 scoreboard objectives add spellAssembly.config dummy
-execute unless score configDefaultsSet spellAssembly.config matches 1 run function spell_assembly:util/default_config
+execute unless score configDefaultsSet spellAssembly.config matches 1 run function spell_assembly:_util/z_never_execute_this/default_config
 
 
 
@@ -27,10 +27,6 @@ scoreboard objectives add spellAssembly.manaExhaustion dummy
 scoreboard objectives add spellAssembly.manaExhaustionFillRate dummy
 scoreboard objectives add spellAssembly.manaExhaustionCooldown dummy
 scoreboard objectives add spellAssembly.displayMana dummy
-
-
-
-### Set Scores
 
 
 

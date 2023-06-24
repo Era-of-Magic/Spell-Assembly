@@ -1,2 +1,2 @@
 
-function spell_assembly:util/default_config
+function spell_assembly:_util/z_never_execute_this/default_config

@@ -1,4 +1,6 @@
 
+schedule clear spell_assembly:tick
+
 scoreboard objectives remove spellAssembly.config
 
 # Constants
