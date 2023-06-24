@@ -1,6 +1,6 @@
 
 # only player with tag tag=spell_assembly_mana and if native mana system is false
-execute if score nativeManaSystem spellAssembly.config matches 0 as @a[tag=spell_assembly_mana] run function spell_assembly:mana
+execute if score nativeManaSystem spellAssembly.config matches 0 as @a[tag=spell_assembly_mana] run function spell_assembly:mana/mana
 
 
 #### Don't touch this

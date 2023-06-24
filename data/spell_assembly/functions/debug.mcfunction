@@ -1,2 +1,0 @@
-
-function spell_assembly:default_config
