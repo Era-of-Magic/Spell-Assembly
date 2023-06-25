@@ -6,3 +6,4 @@ execute if score @s spellAssembly.manaParts matches 20.. run function spell_asse
 # display functions
 function spell_assembly:mana/display/caslculate_mana_percent
 function spell_assembly:mana/display/mana_bars/root
+execute if score manaExhaustion spellAssembly.config matches 1 run function spell_assembly:mana/display/exhaustion_bar
