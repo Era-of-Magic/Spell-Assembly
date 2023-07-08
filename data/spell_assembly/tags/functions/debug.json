@@ -1,0 +1,7 @@
+{
+    "values": [
+        "spell_assembly:load",
+        "spell_assembly:_util/z_never_execute_this/default_config",
+        "#spell_assembly:storage_setups"
+    ]
+}

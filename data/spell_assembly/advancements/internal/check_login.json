@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:value_check",
+                        "value": {
+                            "type": "minecraft:score",
+                            "target": "this",
+                            "score": "spellAssembly.player.left"
+                        },
+                        "range": 1
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "spell_assembly:_util/z_never_execute_this/auto_start/check_player_count"
+    }
+}

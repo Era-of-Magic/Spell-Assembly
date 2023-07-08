@@ -1,0 +1,4 @@
+
+schedule clear spell_assembly:fusion_altar/animations/floating_rods_rotate1
+schedule clear spell_assembly:fusion_altar/animations/floating_rods_rotate2
+schedule clear spell_assembly:fusion_altar/animations/floating_rods_rotate3

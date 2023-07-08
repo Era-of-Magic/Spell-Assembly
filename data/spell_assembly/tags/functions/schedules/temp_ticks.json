@@ -1,0 +1,6 @@
+{
+    "values": [
+        "spell_assembly:fusion_altar/block_checks/temp_tick",
+        "spell_assembly:fusion_altar/gui/temp_tick"
+    ]
+}

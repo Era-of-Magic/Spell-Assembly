@@ -1,0 +1,7 @@
+{
+    "values": [
+        "spell_assembly:tick",
+        "#spell_assembly:schedules/temp_ticks",
+        "spell_assembly:mana/reset_mana_exhaustion"
+    ]
+}

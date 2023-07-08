@@ -1,6 +1,8 @@
 
 title @a times 0t 10t 0t
 
+
+
 ### Configs
 
 scoreboard objectives add spellAssembly.config dummy
@@ -28,12 +30,21 @@ scoreboard objectives add spellAssembly.manaExhaustionFillRate dummy
 scoreboard objectives add spellAssembly.manaExhaustionCooldown dummy
 scoreboard objectives add spellAssembly.displayMana dummy
 
+# Internal functionalities
+scoreboard objectives add spellAssembly.player.left custom:leave_game
+
+
+
+### Setup Storages
+function #spell_assembly:storage_setups
+
 
 
 ### Functions
 schedule clear spell_assembly:tick
 function spell_assembly:tick
 
-### Load Message
 
+
+### Load Message
 tellraw @a {"translate": "load.datapack","color": "yellow"}
