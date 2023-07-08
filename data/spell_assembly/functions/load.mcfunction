@@ -36,6 +36,7 @@ scoreboard objectives add spellAssembly.player.left custom:leave_game
 
 
 ### Setup Storages
+data merge storage spell_assembly:guis {Guis:{}}
 function #spell_assembly:storage_setups
 
 
