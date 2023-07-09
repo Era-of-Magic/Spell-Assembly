@@ -38,9 +38,10 @@ scoreboard objectives add spellAssembly.tempLinkId dummy
 
 
 ### Setup Storages
-data remove storage spell_assembly:guis Guis
 data merge storage spell_assembly:guis {Guis:{}}
 function #spell_assembly:storage_setups
+
+data merge storage spell_assembly:spells {Spells:{}}
 
 
 

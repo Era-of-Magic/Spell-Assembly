@@ -2,6 +2,10 @@
 # Stop functions
 schedule clear spell_assembly:tick
 
+# Remove data storages
+data remove storage spell_assembly:guis Guis
+data remove storage spell_assembly:spells Spells
+
 # Tags
 tag @a[tag=spell_assembly_mana] remove spell_assembly_mana
 
@@ -16,8 +20,11 @@ scoreboard objectives remove spellAssembly.manaExhaustion
 scoreboard objectives remove spellAssembly.manaExhaustionFillRate
 scoreboard objectives remove spellAssembly.manaExhaustionCooldown
 scoreboard objectives remove spellAssembly.displayMana
+scoreboard objectives remove spellAssembly.id
+scoreboard objectives remove spellAssembly.tempLinkId
+
+
 
 ### Uninstall Message
-
 tellraw @a {"translate": "uninstall.done","color": "red"}
 
