@@ -23,6 +23,8 @@ scoreboard objectives remove spellAssembly.displayMana
 scoreboard objectives remove spellAssembly.id
 scoreboard objectives remove spellAssembly.tempLinkId
 
+# Remove entities and blocks
+execute as @e[type=item_display,tag=fusion_altar_block] at @s run function spell_assembly:fusion_altar/block_checks/delete
 
 
 ### Uninstall Message
