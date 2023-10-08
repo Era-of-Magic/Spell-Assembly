@@ -9,7 +9,7 @@ scoreboard objectives add spellAssembly.config dummy
 execute unless score configDefaultsSet spellAssembly.config matches 1 run function spell_assembly:_util/default_config
 
 
-
+ 
 ### Scoreboards
 
 # temporary scores
@@ -43,7 +43,7 @@ scoreboard objectives add spellAssembly.slowcastDuration dummy
 data merge storage spell_assembly:guis {Guis:{}}
 function #spell_assembly:storage_setups
 
-data merge storage spell_assembly:spells {Spells:{}}
+execute unless data storage spell_assembly:spells Spells run data merge storage spell_assembly:spells {Spells:{}}
 
 data merge storage spell_assembly:temp {data:{}}
 

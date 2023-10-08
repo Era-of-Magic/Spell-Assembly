@@ -7,7 +7,7 @@ tag @s remove new
 #
 # 3 * 50 / 5 = 30 blocks
 
-scoreboard players set @s spellAssembly.slowcastSteps 3
-scoreboard players set @s spellAssembly.slowcastDuration 50
+scoreboard players operation @s spellAssembly.slowcastSteps = slowcastSteps temp 
+scoreboard players operation @s spellAssembly.slowcastDuration = slowcastDuration temp
 
 function spell_assembly:spells/temp_tick
