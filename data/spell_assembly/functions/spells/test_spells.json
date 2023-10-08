@@ -1,0 +1,84 @@
+
+// Some dummy spells for testing
+
+/data merge storage spell_assembly:spells_test {
+    "Spells": [
+        {
+            "Name": {
+                "text": "Meteor",
+                "color": "gold"
+            },
+            "Description": {
+                "text": "This is the first spell in the list",
+                "color": "gray"
+            },
+            "ID": 1,
+            "Phases": [
+                {
+                    "Type": "projectile",
+                    "Action": {
+                        "Name": "Meteor",
+                        "Modifiers": [
+                            {
+                                "Name": "Speed",
+                                "Value": 15
+                            }
+                        ]
+                    },
+                    "Model": "8267",
+                    "FX": "minecraft:flame ~ ~ ~ 0 0 0 0.05 5 normal"
+                }
+            ]
+        },
+        {
+            "Name": {
+                "text": "Grasp Heart",
+                "color": "red"
+            },
+            "Description": {
+                "text": "Puts the enemy's heart in your hand, ready to be crushed.",
+                "color": "gray"
+            },
+            "ID": 2,
+            "Phases": [
+                {
+                    "Type": "Contact",
+                    "Action": {
+                        "Name": "InstantDeath"
+                    },
+                    "Model": "9732"
+                }
+            ]
+        },
+        {
+            "Name": {
+                "text": "Oppenheimer",
+                "color": "green"
+            },
+            "Description": {
+                "text": "It's just a nuke.",
+                "color": "gray"
+            },
+            "ID": 3,
+            "Phases": [
+                {
+                    "Type": "projectile",
+                    "Action": {
+                        "Name": "Explosion",
+                        "Modifiers": [
+                            {
+                                "Name": "Amount",
+                                "Value": 10
+                            },
+                            {
+                                "Name": "Strength",
+                                "Value": 100
+                            }
+                        ]
+                    },
+                    "Model": "81"
+                }
+            ]
+        }
+    ]
+}

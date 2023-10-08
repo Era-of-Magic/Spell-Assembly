@@ -6,7 +6,7 @@ title @a times 0t 10t 0t
 ### Configs
 
 scoreboard objectives add spellAssembly.config dummy
-execute unless score configDefaultsSet spellAssembly.config matches 1 run function spell_assembly:_util/z_never_execute_this/default_config
+execute unless score configDefaultsSet spellAssembly.config matches 1 run function spell_assembly:_util/default_config
 
 
 
@@ -39,11 +39,13 @@ scoreboard objectives add spellAssembly.slowcastDuration dummy
 
 
 
-### Setup Storages
+### Storages Setup
 data merge storage spell_assembly:guis {Guis:{}}
 function #spell_assembly:storage_setups
 
 data merge storage spell_assembly:spells {Spells:{}}
+
+data merge storage spell_assembly:temp {data:{}}
 
 
 
