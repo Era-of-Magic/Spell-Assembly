@@ -1,6 +1,4 @@
 
-tag @s remove new
-
 # 1 step is 0.2 blocks
 #
 # steps * dration / 5 = distance in blocks

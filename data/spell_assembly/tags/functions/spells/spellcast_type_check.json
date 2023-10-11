@@ -1,0 +1,6 @@
+{
+    "replace": true,
+    "values": [
+        { "required": true, "id": "spell_assembly:spells/cast_type_check/cast_type"}
+    ]
+}

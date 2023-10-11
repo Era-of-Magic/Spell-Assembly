@@ -20,6 +20,9 @@ scoreboard objectives add const dummy
 scoreboard players set 100 const 100
 scoreboard players set 2 const 2
 
+# Generic
+scoreboard objectives add click used:warped_fungus_on_a_stick
+
 # Mana management
 scoreboard objectives add spellAssembly.mana dummy
 scoreboard objectives add spellAssembly.manaParts dummy
