@@ -33,6 +33,9 @@ scoreboard objectives add spellAssembly.manaExhaustionFillRate dummy
 scoreboard objectives add spellAssembly.manaExhaustionCooldown dummy
 scoreboard objectives add spellAssembly.displayMana dummy
 
+# Spell data
+scoreboard objectives add spellAssembly.spellId dummy
+
 # Internal functionalities
 scoreboard objectives add spellAssembly.player.left custom:leave_game
 scoreboard objectives add spellAssembly.id dummy
