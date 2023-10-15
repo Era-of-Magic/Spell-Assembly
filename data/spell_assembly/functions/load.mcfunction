@@ -49,7 +49,7 @@ scoreboard objectives add spellAssembly.slowcastDuration dummy
 data merge storage spell_assembly:guis {Guis:{}}
 function #spell_assembly:storage_setups
 
-execute unless data storage spell_assembly:spells Spells run data merge storage spell_assembly:spells {Spells:{}}
+execute unless data storage spell_assembly:spells Spells run data merge storage spell_assembly:spells {Spells:[]}
 
 data merge storage spell_assembly:temp {data:{}}
 

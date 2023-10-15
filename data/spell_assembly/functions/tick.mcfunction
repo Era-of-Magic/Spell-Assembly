@@ -1,9 +1,9 @@
 
-# Only player with tag tag=spell_assembly_mana and if native mana system is false
+# Only player with tag tag=spell_assembly_mana and if native mana system is true
 execute if score nativeManaSystem spellAssembly.config matches 1 as @a[tag=spell_assembly_mana] run function spell_assembly:mana/mana
 
-# 
-execute if score nativeSpellcastingTriggers spellAssembly.config matches 1 as @a[tag=spell_assembly_spellcaster,scores={click=1..}] at @s run function spell_assembly:spells/cast_type_check/get_spell_data with entity @s SelectedItem.tag
+# Spell casting trigger. Only player with tag tag=spell_assembly_spellcaster and if native spell triggers is true
+execute if score nativeSpellcastingTriggers spellAssembly.config matches 1 as @a[tag=spell_assembly_spellcaster,scores={click=1..}] if data entity @s SelectedItem.tag.CastingTool at @s anchored eyes positioned ^ ^ ^ run function spell_assembly:spells/cast_type_check/get_spell_data with entity @s SelectedItem.tag
 
 
 

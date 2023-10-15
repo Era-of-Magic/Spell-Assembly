@@ -3,32 +3,36 @@
 {
     "Spells": [
         {
-            "Name": "Spell Name",
+            "Name": {
+                "text": "Spell Name",
+                "color": "white"
+            },
             "Description": {
-                "text": "Bla bla bla",
+                "text": "Bla bla bla description text bla bla bla",
                 "color": "gray"
             },
-            "ID": "123",
+            "ID": 123,
             "Type": "projectile",
+            "ManaCost": 50,
             "Elements": [
                 "fire",
                 "water"
             ],
             // The "Model" field has a CustomModelData value. All spell models will be a `minecraft:light` item.
-            "Model": "8267",
-            // The "FX" field has a particle command starting by the particle id.
-            "FX": "minecraft:flame ~ ~ ~ 0 0 0 0.05 5 normal",
+            "Model": 8267,
+            // The "FX" field has the path to a function that executes the particle commands.
+            "FX": "spell_assembly:spells/particles/fire_cloud",
             "Phases": [
                 {
                     "Name": "explosion",
                     "Modifiers": [
                         {
                             "Name": "amount",
-                            "Value": "3"
+                            "Value": 3
                         },
                         {
                             "Name": "strength",
-                            "Value": "10"
+                            "Value": 10
                         }
                     ]
                 }

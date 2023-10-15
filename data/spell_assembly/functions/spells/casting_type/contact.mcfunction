@@ -1,6 +1,6 @@
 
-#scoreboard players set spellAssembly.raycastSteps temp 23
+scoreboard players set spellAssembly.raycastSteps temp 23
 
-# function data
+scoreboard players operation id temp = @s spellAssembly.id 
 
-#function spell_assembly:spells/raycast
+function spell_assembly:spells/thin_raycast/ray
