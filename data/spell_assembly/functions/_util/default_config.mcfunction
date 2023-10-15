@@ -9,7 +9,7 @@ scoreboard players set nativeSpellcastingTriggers spellAssembly.config 1
 scoreboard players set nativeManaSystem spellAssembly.config 1
 
 # Use mana cost multiplier
-scoreboard players set manaCostMultiplier spellAssembly.config 1
+scoreboard players set toolManaCostMultiplier spellAssembly.config 1
 
 # Use mana exhaustion
 scoreboard players set manaExhaustion spellAssembly.config 1
