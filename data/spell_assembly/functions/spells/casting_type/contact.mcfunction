@@ -1,5 +1,5 @@
 
-scoreboard players set spellAssembly.raycastSteps temp 23
+scoreboard players set raycastSteps temp 23
 
 scoreboard players operation id temp = @s spellAssembly.id 
 
