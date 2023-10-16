@@ -25,16 +25,9 @@
             "Phases": [
                 {
                     "Name": "explosion",
-                    "Modifiers": [
-                        {
-                            "Name": "amount",
-                            "Value": 3
-                        },
-                        {
-                            "Name": "strength",
-                            "Value": 10
-                        }
-                    ]
+                    "Values": {
+                        // Action specific values
+                    }
                 }
             ]
         }
