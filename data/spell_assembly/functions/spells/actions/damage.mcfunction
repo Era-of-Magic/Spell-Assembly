@@ -1,2 +1,2 @@
 
-$damage @s $(Dmg) generic_kill
+$damage @s $(Dmg) minecraft:generic_kill

@@ -35,6 +35,7 @@ scoreboard objectives add spellAssembly.displayMana dummy
 
 # Spell data
 scoreboard objectives add spellAssembly.spellId dummy
+scoreboard objectives add spellAssembly.phases dummy
 
 # Internal functionalities
 scoreboard objectives add spellAssembly.player.left custom:leave_game

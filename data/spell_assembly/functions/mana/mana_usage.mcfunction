@@ -8,7 +8,6 @@ execute if score toolManaCostMultiplier spellAssembly.config matches 1 run funct
 ###
 
 scoreboard players operation @s spellAssembly.mana -= cost temp
-scoreboard players set success temp 0
 execute if score @s spellAssembly.mana matches ..-1 run function spell_assembly:mana/not_enough
 
 # Only if mana exhaustion is enabled. (description above)
