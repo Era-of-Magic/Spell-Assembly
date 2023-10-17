@@ -1,5 +1,5 @@
 
-### Entry point for every spell cast unless contact spells
+### Entry point for every spell cast but contact spells
 
 # Mana calculations
 $execute store result score cost temp run data get storage spell_assembly:spells Spells[{ID:$(SelectedSpellID)}].ManaCost
