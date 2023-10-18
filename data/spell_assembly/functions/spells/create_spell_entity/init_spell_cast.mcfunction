@@ -1,6 +1,9 @@
 
 ### Entry point for every spell cast but contact spells
 
+# If contact type, cancel the function
+$execute if data storage spell_assembly:spells Spells[{ID:$(SelectedSpellID),Type:"contact"}] run return 0
+
 # Mana calculations
 $execute store result score cost temp run data get storage spell_assembly:spells Spells[{ID:$(SelectedSpellID)}].ManaCost
 scoreboard players set success temp 0
