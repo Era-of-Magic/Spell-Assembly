@@ -8,4 +8,4 @@
 scoreboard players operation @s spellAssembly.slowcastSteps = slowcastSteps temp 
 scoreboard players operation @s spellAssembly.slowcastDuration = slowcastDuration temp
 
-function spell_assembly:spells/temp_tick
+function spell_assembly:spells/slowcast/temp_tick

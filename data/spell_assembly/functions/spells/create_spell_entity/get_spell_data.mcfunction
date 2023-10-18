@@ -1,6 +1,6 @@
 
 # Mark this entity as spell-entity and rotate to casters facing direction
-data merge entity @s {teleport_duration:1,Tags:["spell_assembly","spell"]}
+data merge entity @s {Tags:["spell_assembly","spell"]}
 data modify entity @s Rotation set from storage spell_assembly:temp data.Rotation
 
 # Store spell casters UUID and id in spell entity
