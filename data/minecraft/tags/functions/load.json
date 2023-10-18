@@ -1,6 +1,5 @@
 {
     "values": [
-        "spell_assembly:load",
-        "gu:load"
+        "spell_assembly:load"
     ]
 }

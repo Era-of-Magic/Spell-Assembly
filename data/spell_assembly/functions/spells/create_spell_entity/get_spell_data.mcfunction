@@ -3,8 +3,8 @@
 data merge entity @s {Tags:["spell_assembly","spell"]}
 data modify entity @s Rotation set from storage spell_assembly:temp data.Rotation
 
-# Store spell casters UUID and id in spell entity
-data modify entity @s item.tag.SpellCaster set from storage gu:main out
+# Store spell casters UUID and ID in spell entity
+data modify entity @s item.tag.SpellCaster set from storage spell_assembly:temp data.SpellCaster
 scoreboard players operation @s spellAssembly.id = id temp
 
 # Store the spell id

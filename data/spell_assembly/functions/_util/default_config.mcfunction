@@ -2,6 +2,9 @@
 # Config defaults set
 scoreboard players set configDefaultsSet spellAssembly.config 1
 
+# Show error messages
+scoreboard players set showErrors spellAssembly.config 1
+
 # Use native spellcasting triggers
 scoreboard players set nativeSpellcastingTriggers spellAssembly.config 1
 

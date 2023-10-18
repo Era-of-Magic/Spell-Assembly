@@ -1,5 +1,3 @@
-// "Spells" is the array that stores all spells in the game.
-
 {
     "Spells": [
         {
@@ -12,24 +10,24 @@
                 "color": "gray"
             },
             "ID": 123,
-            "Type": "projectile",
+            "Type": "beam",
             "CastValues": {
-                // Type specific values, like casting distance in a beam
-            },         
+                "Steps": 250
+            },
             "ManaCost": 50,
             "Elements": [
                 "fire",
                 "water"
             ],
-            // The "Model" field has a CustomModelData value. All spell models will be a `minecraft:light` item.
             "Model": 8267,
-            // The "FX" field has the path to a function that executes the particle commands.
             "FX": "spell_assembly:spells/particles/fire_cloud",
             "Phases": [
                 {
                     "Name": "explosion",
                     "Values": {
-                        // Action specific values
+                        "Dmg": 3,
+                        "Radius": 5,
+                        "ParticleAmount": 50
                     }
                 }
             ]

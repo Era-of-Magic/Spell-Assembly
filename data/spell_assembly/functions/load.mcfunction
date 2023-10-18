@@ -36,11 +36,13 @@ scoreboard objectives add spellAssembly.displayMana dummy
 # Spell data
 scoreboard objectives add spellAssembly.spellId dummy
 scoreboard objectives add spellAssembly.phases dummy
+scoreboard objectives add spellAssembly.hasParticles dummy
 
 # Internal functionalities
 scoreboard objectives add spellAssembly.player.left custom:leave_game
 scoreboard objectives add spellAssembly.id dummy
 scoreboard objectives add spellAssembly.tempLinkId dummy
+scoreboard objectives add spellAssembly.raycastSteps dummy
 scoreboard objectives add spellAssembly.slowcastSteps dummy
 scoreboard objectives add spellAssembly.slowcastDuration dummy
 
