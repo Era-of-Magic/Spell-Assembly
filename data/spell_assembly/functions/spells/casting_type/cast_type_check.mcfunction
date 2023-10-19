@@ -1,5 +1,8 @@
 
 # Validates if particles exist and work
+#
+# TODO: validate the particles in this command instead of in a new function
+#
 $execute store result score @s spellAssembly.hasParticles run function spell_assembly:spells/particles/validate_particles with storage spell_assembly:spells Spells[{ID:$(ID)}]
 
 # TODO: Add a config setting for debug messages 
