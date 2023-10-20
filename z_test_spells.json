@@ -20,7 +20,7 @@
                 "water"
             ],
             "Model": 8267,
-            "FX": "spell_assembly:spells/particles/fire_cloud",
+            "FX": "spell_assembly:spells/particles/small_flame_ball",
             "Phases": [
                 {
                     "Name": "explosion",

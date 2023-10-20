@@ -33,6 +33,7 @@ scoreboard objectives remove spellAssembly.slowcastDuration
 
 # Remove entities and blocks
 execute as @e[type=item_display,tag=fusion_altar_block] at @s run function spell_assembly:fusion_altar/block_checks/delete
+kill @e[tag=spell_assembly,tag=spell]
 
 
 ### Uninstall Message
