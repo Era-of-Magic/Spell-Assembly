@@ -9,4 +9,6 @@ execute as @e[type=!#taglib:non_living,dx=0] unless score @s spellAssembly.id = 
 
 execute if score @s spellAssembly.raycastSteps matches 1.. positioned ^ ^ ^.2 run function spell_assembly:spells/thin_raycast/ray
 
-kill
+say hi
+
+#kill
