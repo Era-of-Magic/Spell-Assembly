@@ -1,2 +1,4 @@
 
-#kill
+
+
+return 1
