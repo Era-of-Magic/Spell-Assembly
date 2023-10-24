@@ -36,6 +36,7 @@ scoreboard objectives add spellAssembly.displayMana dummy
 # Spell data
 scoreboard objectives add spellAssembly.spellId dummy
 scoreboard objectives add spellAssembly.phases dummy
+scoreboard objectives add spellAssembly.phaseIndex dummy
 scoreboard objectives add spellAssembly.hasParticles dummy
 
 # Internal functionalities

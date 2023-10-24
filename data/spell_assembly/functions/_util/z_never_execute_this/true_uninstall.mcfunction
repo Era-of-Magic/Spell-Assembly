@@ -25,6 +25,7 @@ scoreboard objectives remove spellAssembly.player.left
 scoreboard objectives remove spellAssembly.id
 scoreboard objectives remove spellAssembly.spellId
 scoreboard objectives remove spellAssembly.phases
+scoreboard objectives remove spellAssembly.phaseIndex
 scoreboard objectives remove spellAssembly.hasParticles
 scoreboard objectives remove spellAssembly.tempLinkId
 scoreboard objectives remove spellAssembly.raycastSteps
